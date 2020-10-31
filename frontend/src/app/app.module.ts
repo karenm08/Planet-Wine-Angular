@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductItemComponent } from './product-item/product-item.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { ProductItemComponent } from './product-item/product-item.component';
     ProductItemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
