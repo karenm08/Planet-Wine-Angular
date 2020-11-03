@@ -1,4 +1,4 @@
- <section class="content">
+<section class="content">
     <header>
         <h1>Shop</h1>
         <p>
@@ -55,11 +55,12 @@
         </article>
 
         <article id="wineDisplay">
-            <div *ngFor = "let product of products">
-            <img [src]="product.imagePath"  alt="{{ product.imagePath }}">  
-            <h2>{{ product.name }}</h2> 
-            <p>${{ product.price }}</p> 
-            </div>
+         
+                <div  *ngFor = "let product of productList" class="product-card px-1 my-3">
+                <app-product-item [productItem] = "product"></app-product-item>
+                </div>
+            
+          
         </article>
     </div>
 </section>
@@ -72,3 +73,20 @@
         others.
     </p>
 </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
