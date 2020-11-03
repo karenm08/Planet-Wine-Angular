@@ -4,6 +4,7 @@ header img {
     width: 150px; }
   
 nav .login-cart {
+    position: absolute;
     display: flex;
     width: 5%;
     justify-content: space-around;
