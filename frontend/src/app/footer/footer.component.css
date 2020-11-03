@@ -1,3 +1,17 @@
+.imgArticle {
+  color: black;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("/assets/shop-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 0; }
+  .imgArticle > * {
+    padding: 1rem; }
+  .imgArticle h5 {
+    font-weight: bold;
+    font-size: 1.25rem; }
+    
 footer {
     text-align: center;
     justify-content: space-around;

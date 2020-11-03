@@ -122,11 +122,13 @@ table {
   border-spacing: 0; }
 
 html,
-body {
+body
+{
   height: 100%;
   margin: 0;
   font-family: 'Cormorant', serif;
-  color: #929292; }
-
+  color: #929292;
+ }
+ 
 .content {
   min-height: 100%; }
