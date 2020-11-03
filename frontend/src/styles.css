@@ -127,7 +127,8 @@ body
   height: 100%;
   margin: 0;
   font-family: 'Cormorant', serif;
-  color:#444444;
+  color:#929292;
+  font-weight: 700;
  }
  
 .content {
