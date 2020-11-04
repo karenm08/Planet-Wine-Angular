@@ -1,0 +1,18 @@
+<div class="container">
+    <header class="section-heading">
+        <a [routerLink]="['/products']" class="btn btn-lg btn-outline-secondary mt-3 float-right">Back to Products</a>
+        <!-- <h3 class="display-4 text-muted">Product Detail:</h3> -->
+    </header>
+
+
+    <div href="#" class="card my-4 mx-auto" style="width: 22rem;">
+
+        <img [src]="productItem.imagePath" class="card-img-top image" alt="product"> 
+
+
+    <div class="card-body border-top text-center">
+    <div class="card-text">
+        <a href="#" class="card-link title"><h5 class="card-title text-muted">{{ productItem.name }}</h5></a>
+        <h5><div class="price mt-1">${{ productItem.price }}</div></h5>
+    </div>
+</div>

@@ -1,6 +1,8 @@
 <img [src]="productItem.imagePath"  alt="{{ productItem.imagePath }}">  
 <h2>{{ productItem.name }}</h2> 
+<br>
 <p>${{ productItem.price }}</p> 
-<button type="button" (click)="addToCart()" class="btn btn-secondary my-3 py-1 ">Add to Cart</button>  
+<button type="button" [routerLink]="['/products', productItem.id]" class="btn btn-secondary mx-2 my-3 py-1">See Product</button>
+<button type="button" (click)="addToCart()" class="btn btn-secondary my-3 py-1 mx-2 ">Add to Cart</button>  
 
 

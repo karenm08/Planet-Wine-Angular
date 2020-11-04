@@ -140,5 +140,9 @@
         .sideArticle article:nth-of-type(2) img {
           max-width: 10rem;
           max-height: 15rem; }
+
+          p{
+            font-size: 18px;
+          }
           
   /*# sourceMappingURL=shop.css.map */
